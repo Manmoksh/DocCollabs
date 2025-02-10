@@ -38,7 +38,7 @@
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-1. Create a ``.env`` file  and fill with necessary variables based on ``.env.example``
+1. Create a ``.env.local`` file  and fill with necessary variables based on ``.env.example``
 2. Clone the repo
    ```sh
    git clone https://github.com/manmoksh/DocCollabs.git
