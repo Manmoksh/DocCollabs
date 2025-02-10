@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<a name="readme-top"></a>
 
+
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <img src="/public/assets/icons/logo-icon.svg" alt="Logo" width="80" height="104">
+
+  <h3 align="center">DocCollabs</h3>
+
+  <p align="center">
+    Your go-to collaborative editor.
+    <br />
+    <br />
+    <a href="https://doc-collabs.vercel.app">View Demo</a>
+  </p>
+</div>
+
+
+
+### Built With
+
+* [![Next.js]][Next-url]
+* [![shadcn]][shadcn-url]
+* [![tailwind]][tailwind-url]
+* [![clerk]][clerk-url]
+* [![Liveblocks]][Liveblocks-url]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- GETTING STARTED -->
 ## Getting Started
 
-First, run the development server:
+### Installation
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Create a ``.env.local`` file  and fill with necessary variables based on ``.env.example``
+2. Clone the repo
+   ```sh
+   git clone https://github.com/manmoksh/DocCollabs.git
+   ```
+3. Install packages with npm
+   ```sh
+   npm install
+   ```
+4. Run developer server
+   ```sh
+   npm run dev
+   ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[Next-url]: https://nextjs.org/
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+[shadcn]: https://img.shields.io/badge/shadcn%2Fui-000000?style=for-the-badge&logo=shadcnui&logoColor=white
+[shadcn-url]: https://ui.shadcn.com/
+[tailwind]: https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white
+[tailwind-url]: https://tailwindcss.com/
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+[clerk]:https://img.shields.io/badge/Clerk-Authentication-blue?logo=clerk&logoColor=white
 
-## Deploy on Vercel
+[clerk-url]: https://clerk.com/
+[Liveblocks]:https://img.shields.io/badge/Liveblocks-Realtime%20Collaboration-blue?logo=liveblocks&logoColor=white
+[Liveblocks-url]:https://www.liveblocks.io
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
